@@ -34,7 +34,7 @@ if ($sortBy === 'asc') {
     $query .= " ASC";
 }
 
-$query .= " LIMIT 10";
+// $query .= " LIMIT 10";
 
 $statement = $connection->prepare($query);
 $success = $statement->execute();
